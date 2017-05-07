@@ -23,7 +23,7 @@ int getRow(int row){
  *returns positive integer if line is to the right
  *returns negative integer if line is to the left
  */
-int detectLine(){
+double detectLine(){
 	//take a picture
 	take_picture();
 	display_picture();
@@ -31,7 +31,7 @@ int detectLine(){
 	int[] avRow = getRow(200);
 	
 	int threshold = 100;
-	int error = 0;
+	double error = 0;
 	int numPixels = 0;
 	for (int pixel = 0; pixel < 320; pixel += 4) {
 		if (avRow[pixel] > threshold){
@@ -40,7 +40,7 @@ int detectLine(){
 		}
 	}
 	if (numPixels > 0) {
-		return error/numPixels;
+		return (error/numPixels);
 	} else {
 		return 0;
 	}
