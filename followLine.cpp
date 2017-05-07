@@ -8,7 +8,7 @@
 int getRow(int row){
 	int rowsAv[];
 	
-	for (int pixel = 0; pixel < 320; pixel++) {
+	for (int pixel = 0; pixel < 320; pixel += 4) { //Get's every 4th pixel
 		int pixelTotal = 0; //Total value of the pixels from all 3 rows
 		pixelTotal += get_pixel(pixel,row-1,3);
 		pixelTotal += get_pixel(pixel,row,3);
@@ -31,10 +31,17 @@ int detectLine(){
 	int[] avRow = getRow(200);
 	
 	int threshold = 100;
-	int linePosition = 0;
-	for (int pixel = 0; pixel < 320; pixel++) {
+	int error = 0;
+	int numPixels = 0;
+	for (int pixel = 0; pixel < 320; pixel += 4) {
 		if (avRow[pixel] > threshold){
-			linePosition += (-160+pixel);
+			error += (pixel-160);
+			numPixels++;
 		}
 	}
-return linePosition;}
+	if (numPixels > 0) {
+		return error/numPixels;
+	} else {
+		return 0;
+	}
+}
