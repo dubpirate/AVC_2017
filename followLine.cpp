@@ -7,16 +7,23 @@
  */
 int getRow(int row){
 	int rowsAv[];
+	int linePlace[];
+	int max = 1;
 	
 	for (int pixel = 0; pixel < 320; pixel += 4) { //Get's every 4th pixel
 		int pixelTotal = 0; //Total value of the pixels from all 3 rows
-		pixelTotal += get_pixel(pixel,row-1,3);
-		pixelTotal += get_pixel(pixel,row,3);
-		pixelTotal += get_pixel(pixel,row+1,3);
-		rowsAv[pixelRow] = pixelTotal/3;
+		pixelTotal = get_pixel(pixel,row-1,3) + get_pixel(pixel,row,3) + get_pixel(pixel,row+1,3);
+		int average = pixelTotal/3;
+		rowsAv[pixelRow] = average;
+		if (average > max) max = average;
 	}
 	
-	return rowsAv;
+	int threshold = max / 2;
+	for (int pixel = 0; pixel < 80; pixel++) {
+		if (rowsAv[pixel] < threshold) linePlace[pixel] = 1;
+	}
+	
+	return linePlace;
 }
 
 /*Detects where the white line is in relation to the centre of the robot.
@@ -28,13 +35,12 @@ double detectLine(){
 	take_picture();
 	display_picture();
 	
-	int[] avRow = getRow(200);
+	int[] linePlace = getRow(200);
 	
-	int threshold = 100;
 	double error = 0;
 	int numPixels = 0;
-	for (int pixel = 0; pixel < 320; pixel += 4) {
-		if (avRow[pixel] > threshold){
+	for (int pixel = 0; pixel < 80; pixel++) {
+		if (linePlace[pixel] == 1){
 			error += (pixel-160);
 			numPixels++;
 		}
