@@ -41,7 +41,7 @@ double detectLine(){
 	int numPixels = 0;
 	for (int pixel = 0; pixel < 32; pixel++) {
 		if (linePlace[pixel] == 1){
-			error += (pixel-160);
+			error += (pixel-16);
 			numPixels++;
 		}
 	}
