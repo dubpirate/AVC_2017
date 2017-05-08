@@ -10,7 +10,7 @@ int getRow(int row){
 	int linePlace[];
 	int max = 1;
 	
-	for (int pixel = 0; pixel < 320; pixel += 4) { //Get's every 4th pixel
+	for (int pixel = 0; pixel < 320; pixel += 10) { //Get's every 4th pixel
 		int pixelTotal = 0; //Total value of the pixels from all 3 rows
 		pixelTotal = get_pixel(pixel,row-1,3) + get_pixel(pixel,row,3) + get_pixel(pixel,row+1,3);
 		int average = pixelTotal/3;
@@ -19,7 +19,7 @@ int getRow(int row){
 	}
 	
 	int threshold = max / 2;
-	for (int pixel = 0; pixel < 80; pixel++) {
+	for (int pixel = 0; pixel < 32; pixel++) {
 		if (rowsAv[pixel] < threshold) linePlace[pixel] = 1;
 	}
 	
@@ -39,7 +39,7 @@ double detectLine(){
 	
 	double error = 0;
 	int numPixels = 0;
-	for (int pixel = 0; pixel < 80; pixel++) {
+	for (int pixel = 0; pixel < 32; pixel++) {
 		if (linePlace[pixel] == 1){
 			error += (pixel-160);
 			numPixels++;
