@@ -30,3 +30,4 @@ Ethan:
 William:
 - [ ] Update Readme
 - [ ] Get team member's goals
+- [ ] Approve G & J's Pull Request
