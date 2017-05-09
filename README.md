@@ -31,3 +31,4 @@ William:
 - [ ] Update Readme
 - [ ] Get team member's goals
 - [ ] Approve G & J's Pull Request
+- [x] Add G & J as Contributors 
