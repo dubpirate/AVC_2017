@@ -7,18 +7,20 @@
  */
 int getRow(int row){
 	int rowsAv[];
-	int linePlace[];
-	int max = 1;
+	int pixelTotal = 0; 	//Total value of the pixels from all 3 rows
+	int average; 	    	// will hold the average value of the three pixels
+	int linePlace[];	// int array of ---
+	int max = 1;		// maximum value of ---
 	
 	for (int pixel = 0; pixel < 320; pixel += 10) { //Get's every 4th pixel
-		int pixelTotal = 0; //Total value of the pixels from all 3 rows
 		pixelTotal = get_pixel(pixel,row-1,3) + get_pixel(pixel,row,3) + get_pixel(pixel,row+1,3);
-		int average = pixelTotal/3;
+		average = pixelTotal/3;
 		rowsAv[pixelRow] = average;
 		if (average > max) max = average;
 	}
 	
-	int threshold = max / 2;
+	int threshold = max / 2; //threshold of --- 
+	
 	for (int pixel = 0; pixel < 32; pixel++) {
 		if (rowsAv[pixel] < threshold) linePlace[pixel] = 1;
 	}
