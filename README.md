@@ -20,11 +20,11 @@ Software Team:
 - [ ] Commit Tuesday's Progress
 
 Hardware Team:
-- [g] Finish Design of the Robot 
+- [ ] Finish Design of the Robot 
 - [ ] Get Wheels Working
-- [ ] Attatch Camera
-- [h] Attatch Body
-- [ ] Attatch Sensors
+- [ ] Attach Camera
+- [ ] Attach Body
+- [ ] Attach Sensors
 - [ ] Start Using Free CAD
 
 William:
