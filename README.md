@@ -21,11 +21,10 @@ Software Team:
 
 Hardware Team:
 - [ ] Finish Design of the Robot 
-- [ ] Get Wheels Working
-- [ ] Attach Camera
-- [ ] Attach Body
-- [ ] Attach Sensors
-- [ ] Start Using Free CAD
+- [ ] 3D Print Chassis
+- [x] Get Wheels Working
+- [x] Attach Camera
+- [x] Attach Sensors
 
 William:
 - [ ] Update Readme
