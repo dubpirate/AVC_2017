@@ -17,6 +17,7 @@ The A Team:
 - [ ] Get Camera Reading
 - [x] Get Sensor Reading
 - [x] Commit Tuesday's Progress
+- [x] Add Error Checking for PID
 
 The V Team:
 - [ ] Finish Design of the Robot 
