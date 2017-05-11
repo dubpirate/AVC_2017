@@ -12,17 +12,24 @@ int getRow(int row){
 	int linePlace[];	// int array of ---
 	int max = 1;		// maximum value of ---
 	
+	int i = 0;
 	for (int pixel = 0; pixel < 320; pixel += 10) { //Get's every 4th pixel
 		pixelTotal = get_pixel(pixel,row-1,3) + get_pixel(pixel,row,3) + get_pixel(pixel,row+1,3);
 		average = pixelTotal/3;
-		rowsAv[pixelRow] = average;
+		rowsAv[i++] = average;
 		if (average > max) max = average;
 	}
 	
 	int threshold = max / 2; //threshold of --- 
 	
+	printf("[ ");
 	for (int pixel = 0; pixel < 32; pixel++) {
-		if (rowsAv[pixel] < threshold) linePlace[pixel] = 1;
+		if (rowsAv[pixel] < threshold) {
+			linePlace[pixel] = 1;
+		} else {
+			linePlace[pixel] = 0;
+		}
+		printf(linePlace[pixel]);
 	}
 	
 	return linePlace;
