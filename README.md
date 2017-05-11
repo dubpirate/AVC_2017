@@ -1,8 +1,8 @@
 # AVC_2017
 The ENGR 101 AVC project for The Bravo India Tango Charlie Hotel
 
-The Software Team is made up of Greg and James
-The Hardware Team is made up of Ethan and Hayden
+The A Team is made up of Greg and James. It stands for the Autonomous in the Autonomous Vehicle Challenge.
+The V Team is made up of Ethan and Hayden. It stands for the Vehicle in the AVC
 
 // Week One Checklist:
 
@@ -12,22 +12,21 @@ The Hardware Team is made up of Ethan and Hayden
 
 // Week Two Checklist:
 
-Software Team:
+The A Team:
 - [x] Fix Robot Turning Function
 - [ ] Get Camera Reading
-- [ ] Work on Main stream Rather than 
 - [x] Get Sensor Reading
-- [ ] Commit Tuesday's Progress
+- [x] Commit Tuesday's Progress
 
-Hardware Team:
+The V Team:
 - [ ] Finish Design of the Robot 
-- [ ] 3D Print Chassis
+- [x] 3D Print Chassis
 - [x] Get Wheels Working
 - [x] Attach Camera
 - [x] Attach Sensors
 
 William:
 - [ ] Update Readme
-- [ ] Get team member's goals
+- [x] Get team member's goals
 - [x] Merge G & J's Pull Request
-- [x] Add G & J as Contributors 
+- [x] Add G & J as Contributors C
