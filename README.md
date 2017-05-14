@@ -36,10 +36,10 @@ William:
 ## Week Three Checklist:
 
 The A Team:
-- [ ] 
+- [ ] Bluh blub
 
 The V Team:
-- [ ] 
+- [ ] Attatch Camera
 
 William:
 - [ ] Add Comments
