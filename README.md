@@ -36,10 +36,11 @@ William:
 ## Week Three Checklist:
 
 The A Team:
-- [ ] Bluh blub
+- [ ] Get Camera Working
 
 The V Team:
-- [ ] Attatch Camera
+- [ ] Secure Camera Mount 
 
 William:
 - [ ] Add Comments
+- [ ] Make sure The A Team can change the Repo
