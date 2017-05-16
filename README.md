@@ -35,9 +35,13 @@ William:
 
 ## Week Three Checklist:
 
+Whole Team:
+- [ ] Progress Reports.
+
 The A Team:
 - [ ] Get Camera Working
 - [ ] Open the Gate
+- [ ] Fix turning to complete quadrant 2 and 3
 
 The V Team:
 - [ ] Secure Camera Mount 
@@ -46,3 +50,4 @@ The V Team:
 William:
 - [ ] Add Comments
 - [ ] Make sure The A Team can change the Repo
+- [ ] 
