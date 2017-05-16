@@ -37,9 +37,11 @@ William:
 
 The A Team:
 - [ ] Get Camera Working
+- [ ] Open the Gate
 
 The V Team:
 - [ ] Secure Camera Mount 
+- [ ] Aesthetics
 
 William:
 - [ ] Add Comments
