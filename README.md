@@ -24,7 +24,7 @@ The V Team:
 - [x] 3D Print Chassis
 - [x] Get Wheels Working
 - [x] Attach Camera
-- [x] Attach Sensors
+- [x] Attach Sensors to the raspberry pi
 
 William:
 - [x] Update Readme
@@ -37,17 +37,20 @@ William:
 
 Whole Team:
 - [ ] Progress Reports.
+- [x] Complete Quadrant 2
+- [ ] Complete Quadrant 3
 
 The A Team:
-- [ ] Get Camera Working
-- [ ] Open the Gate
-- [ ] Fix turning to complete quadrant 2 and 3
+- [x] Get Camera Working
+- [x] Open the Gate
+- [x] Fix the issue around only turning right.
 
 The V Team:
-- [ ] Secure Camera Mount 
+- [x] Secure Camera Mount (Made of Pipe cleaners
 - [ ] Aesthetics
+- [ ] Mount sensors to the body of Orion
 
 William:
-- [ ] Add Comments
+- [ ] Add Comments to the code
 - [ ] Make sure The A Team can change the Repo
-- [ ] 
+- [ ] Get data / photos for our progress reports.
