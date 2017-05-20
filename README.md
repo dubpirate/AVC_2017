@@ -36,7 +36,7 @@ William:
 ## Week Three Checklist:
 
 Whole Team:
-- [ ] Progress Reports.
+- [x] Progress Reports.
 - [x] Complete Quadrant 2
 - [ ] Complete Quadrant 3
 
@@ -48,10 +48,10 @@ The A Team:
 The V Team:
 - [x] Secure Camera Mount (Made of Pipe cleaners
 - [ ] Aesthetics
-- [ ] Mount sensors to the body of Orion
-- [ ] Get screenshots of the Chassis building process to share with the team.
+- [x] Mount sensors to the body of Orion
+- [x] Get screenshots of the Chassis building process to share with the team.
 
 William:
 - [ ] Add Comments to the code
 - [ ] Make sure The A Team can change the Repo
-- [ ] Get data / photos for our progress reports.
+- [x] Get data / photos for our progress reports.
