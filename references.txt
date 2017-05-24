@@ -4,9 +4,10 @@ Things to Reference in the Final Report.
 
 Araki, M (2003). Control Systems, Robotics and Automation - Vol. II - PID Control. Kyoto, Japan: Encyclopedia of Life Support Systems (EOLSS).
 
+Cox, I.J.,& Wilfong, G.J. (1990). Autonomous Robot Vehicles. Retrieved from: http://bit.ly/2rBA0AN 
+
 ### HARDWARE ###
 
 Hobbico Inc. (2015). LiFeSource Lithium-Iron-Phosphate Batteries. Retrieved 31st May, 2017, from LiFeSource: http://www.lifesourcebatteries.com/
 
-Pololu Corporation. (2001 - 2017). Sharp GP2Y0A21YK0F Analog Distance Sensor 10-80cm. Retrieved 31st May, 2017, from Polulu:Sharp GP2Y0A21YK0F Analog Distance Sensor 10-80cm
-
+Pololu Corporation. (2001 - 2017). Sharp GP2Y0A21YK0F Analog Distance Sensor 10-80cm. Retrieved 31st May, 2017, from Polulu: https://www.pololu.com/product/136
