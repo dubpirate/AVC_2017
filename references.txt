@@ -1,0 +1,12 @@
+Things to Reference in the Final Report.
+
+### PID CONTROL ###
+
+Araki, M (2003). Control Systems, Robotics and Automation - Vol. II - PID Control. Kyoto, Japan: Encyclopedia of Life Support Systems (EOLSS).
+
+### HARDWARE ###
+
+Hobbico Inc. (2015). LiFeSource Lithium-Iron-Phosphate Batteries. Retrieved 31st May, 2017, from LiFeSource: http://www.lifesourcebatteries.com/
+
+Pololu Corporation. (2001 - 2017). Sharp GP2Y0A21YK0F Analog Distance Sensor 10-80cm. Retrieved 31st May, 2017, from Polulu:Sharp GP2Y0A21YK0F Analog Distance Sensor 10-80cm
+
