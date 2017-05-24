@@ -44,6 +44,7 @@ The A Team:
 - [x] Get Camera Working
 - [x] Open the Gate
 - [x] Fix the issue around only turning right.
+- [x] Add Comments to the code
 
 The V Team:
 - [x] Secure Camera Mount (Made of Pipe cleaners
@@ -52,6 +53,17 @@ The V Team:
 - [x] Get screenshots of the Chassis building process to share with the team.
 
 William:
-- [ ] Add Comments to the code
 - [ ] Make sure The A Team can change the Repo
 - [x] Get data / photos for our progress reports.
+
+## Week Four Checklist:
+
+The A Team:
+- [ ] 
+
+The V Team:
+
+2
+William:
+- [ ] Catch up on Tuesday's documentation
+- [ ] Add the A Team's Pull request.
