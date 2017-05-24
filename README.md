@@ -59,11 +59,11 @@ William:
 ## Week Four Checklist:
 
 The A Team:
-- [ ] 
+- [ ] Complete Quadrant 3
 
 The V Team:
+- [ ] Speaker
 
-2
 William:
 - [ ] Catch up on Tuesday's documentation
 - [ ] Add the A Team's Pull request.
